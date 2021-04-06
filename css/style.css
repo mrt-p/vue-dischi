@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+.container {
+  width: 100%;
+  padding: 0;
+}
+
+header {
+  height: 10%;
+  width: 100%;
+  background-color: #2E3A46;
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  height: 8vh;
+  padding: 5px;
+}
+
+body {
+  background-color: #1E2D3B;
+  font-family: 'Roboto', sans-serif;
+}
+
+.dischi {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5%;
+  justify-content: center;
+}
+
+.disc {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2E3A46;
+  padding: 1%;
+  margin: 1%;
+  justify-content: space-around;
+  text-align: center;
+  width: 200px;
+  height: 350px;
+}
+
+.disc img {
+  width: 90%;
+}
+
+.disc h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.dati_disc {
+  color: grey;
+  margin: 0;
+}
+
+.author {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.year {
+  font-size: 12px;
+}
